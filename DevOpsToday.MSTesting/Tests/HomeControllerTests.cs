@@ -25,7 +25,7 @@ namespace DevOpsToday.MSTesting.Tests
     public void Test_ErrorAction()
     {
       var sut = new HomeController();
-
+    
       Assert.IsNotNull(sut.Error());
     }
   }
