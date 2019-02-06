@@ -8,7 +8,7 @@ namespace DevOpsToday.MSTesting.Tests
   public class HomeControllerTests
   {
     [TestMethod]
-    public void Test_IndexAction()
+    public static void Test_IndexAction()
     {
       var sut = new HomeController();
 
